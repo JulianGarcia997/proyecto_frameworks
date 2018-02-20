@@ -1,10 +1,18 @@
+/* colores */
+
 body{
   background-color:#7B241C;  	
 }
 
-.color-blanco{
+.fondo-blanco{
   background-color:#FFFFFF; 	
 }
+
+.fondo-enlaces{
+  background-color:#F5B041; 
+}
+
+/*imagenes*/
 
 .img-logo{
   width:100px; 	
@@ -17,36 +25,6 @@ body{
   opacity:0.5;    	
 }
 
-.img-red:hover{
-  opacity:1; 	
-}
-
-.fila-enlaces{
-  background-color:#F5B041; 	
-}
-
-.caja-enlace{
-  padding:20px 0px; 	
-}
-
-.caja-enlace a{
-  text-decoration:none;
-  color:red;  	
-}
-
-.caja-enlace:hover{
-  border-radius:16px 16px 16px 16px;
-  background-color:#FFFFFF;  	
-}
-
-.caja-bmth,.caja-rhcp{
-  padding:20px 30px; 	
-}
-
-.caja-comentarios{
-  margin:30px 0px; 	
-}
-
 .img-bmth{
   width:220px;
   height:180px;
@@ -55,38 +33,69 @@ body{
 
 .img-usuario{
   width:50px;
-  height:55px; 	
+  height:50px;  	
 }
 
 .img-rhcp{
-  width:210px;
-  height:150px;
-  margin-top:70px;   	
+  width:200px;
+  height:170px;
+  margin-top:65px;	   	
 }
 
-.caja-busqueda,.caja-opciones{
-  margin:20px 20px; 	
+/* pseudo-classes */
+
+.img-red:hover{
+  opacity:1; 	
+}
+
+.caja-enlace:hover{
+  border-radius:16px 16px 16px 16px;
+  background-color:#FFFFFF;  	
 }
 
 li:hover{
-  background-color:#F1C40F; 	
+  background-color:#F5B041; 
 }
 
+/* cajas */
+
+.caja-enlace{
+  padding:20px 0px; 
+}
+
+.caja-enlace a{
+  text-decoration:none;
+  color:red; 	
+}
+
+.caja-bmth,.caja-rhcp{
+  padding:20px; 	
+}
+
+.caja-comentarios{
+  margin: 20px 10px; 	
+}
+
+.caja-busqueda,.caja-opciones{
+  padding:20px 30px;  	
+}
+
+/* media */
+
 @media (max-width:468px){
-  
-  #caja-links{
+
+  #modf-red{
     text-align:center; 	
   }
 
-  .img-red{
-    width:35px;
-    height:35px;
-    margin-bottom:10px;
-    opacity:1;    	
+  #modf-red img{
+  	margin-bottom:10px;  
+    opacity:1; 	
   }
 
-  .caja-bmth,.caja-rhcp{
-    padding:15px; 
+  .img-usuario{
+    width:47px;
+    height:55px; 	
   }
 
   .img-bmth,.img-rhcp{
@@ -95,25 +104,21 @@ li:hover{
     margin-top:5px;   	
   }
 
-  #caja-rhcp-modificada{
+  .caja-bmth,.caja-rhcp{
+  	padding:15px; 
+  }
+
+  .caja-rhcp{
     display:flex;
     flex-direction:column;  	
   }
 
-  #rhcp-img{
-    order:2; 	
-  }
-
-  #rhcp-text{
+  #orden-1{
     order:1; 	
   }
 
-  .img-usuario{
-    width:45px;  	
-  }
-
-  .titulo-rhcp{
-    text-align:left;	
+  #orden-2{
+    order:2; 	
   }
 
 }
