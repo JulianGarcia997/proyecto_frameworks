@@ -1,0 +1,64 @@
+body{
+  background:url(../img/cocina.jpg);  
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  background-attachment:fixed; /*posicion fija*/ 
+  width:100%;
+  height:100%;    	
+}
+
+/* colores */
+
+.color-azul{
+  background:rgba(33, 97, 140,0.55);  
+}
+
+.caja-titulo-slogan h1,p{
+  color:#FFFFFF;  
+}
+
+/* cajas */
+
+.caja-titulo-slogan{
+  padding:20px;
+  border-right:1px solid #FFFFFF;    
+}
+
+.caja-izquierda{
+  padding:30px; 
+  background-color:rgba(253,237,236,0.60);      
+}
+
+.marco{
+  border:5px solid #FFFFFF;  
+}
+
+.fil-fav{
+  margin:20px 0px;   
+}
+
+/* imagenes */
+
+.img-fav{
+  width:110px; 
+  height:120px; 
+}
+
+.vacia{
+  margin:20px 0px;
+  border:1px solid #FFFFFF;   
+}
+
+.contenedor-principal{
+  padding:0px 10px;   
+}
+
+ul{
+  list-style:none; 
+}
+
+ul a{
+  text-decoration:none;
+  color:#FFFFFF;   
+}
