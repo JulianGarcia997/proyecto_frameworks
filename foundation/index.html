@@ -8,102 +8,95 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <header>
-      <div class="row color-azul">
-        <div class="column large-4 caja-titulo-slogan">
-          <h1>Cocinando</h1>
-          <p class="float-right">
-          Eres lo que comes,asi que come bien.  
-          </p>  
-        </div>  
-      </div>    
-    </header> 
-    <section>
-      <div class="row color-azul contenedor-principal">
-        <div class="row column vacia"></div>
-        <div class="column large-4 caja-izquierda"> 
-          <div class="row">
-            <input type="search" placeholder="Buscar"> 
-            <div class="button-group">
-              <a href="#" class="expanded large button">Inicio</a>
-              <a href="#" class="expanded large button">Mi plato perfecto</a>
-              <a href="#" class="expanded large button">Mis recetas</a>  
-            </div> 
-          </div>
-          <div class="row">
-            <p>Favoritos:</p>
-            <div class="row fil-fav">
-              <div class="column large-4">
-                <a href="#"><img src="img/1.jpg" class="marco img-fav"/></a>  
-              </div>
-              <div class="column large-4">
-                <a href="#"><img src="img/2.jpg" class="marco img-fav"/></a>
-              </div>
-              <div class="column large-4">
-                <a href="#"><img src="img/3.jpg" class="marco img-fav"/></a>
-              </div>  
-            </div>
-            <div class="row fil-fav">
-              <div class="column large-4">
-                <a href="#"><img src="img/4.jpg" class="marco img-fav"/></a>  
-              </div>
-              <div class="column large-4">
-                <a href="#"><img src="img/5.jpg" class="marco img-fav"/></a>
-              </div>
-              <div class="column large-4">
-                <a href="#"><img src="img/6.jpg" class="marco img-fav"/></a>
-              </div>  
-            </div>
-            <div class="row"></div>      
-          </div> 
-          <div class="row">
-            <p>Historial:</p>
-            <ul>
-              <li><a href="#">pasta cremosa vegana</a></li>
-              <li><a href="#">pure de chocolate</a></li>
-              <li><a href="#">langosta</a></li>
-              <li><a href="#">ramen</a></li>
-              <li><a href="#">plato mixto de carnes</a></li>
-              <li><a href="#">helado de fresa con vainilla</a></li>
-              <li><a href="#">ensalada agridulce</a></li>
-              <li><a href="#">rollitos de tempura</a></li>
-              <li><a href="#">arroz chino</a></li>  
-            </ul>  
-          </div>
+    <header class="row fondo-azul">
+      <div class="column large-4 columna-titulo-slogan">
+        <h1 class="letra-blanco">Cocina</h1>
+        <p class="float-right letra-blanco">
+        Eres lo que comes, así que come bien.
+        </p>  
+      </div>  
+    </header>
+    <section class="row fondo-azul fila-principal">
+      <div class="row column fila-vacia"></div> 
+      <div class="column large-4 columna-izq">
+        <input type="search" placeholder="Buscar">
+        <div class="button-group">
+          <a href="#" class="expanded large button">Inicio</a>
+          <a href="#" class="expanded large button">Mis plato perfecto</a>
+          <a href="#" class="expanded large button">Mis recetas</a>  
         </div>
-        <div class="column large-8">
-          <div class="row column caja-derecha">
-            <div class="row tarjeta">
-              <h1>Ramen</h1>
-              <p>22 de febrero 2018</p>
-              <img src="img/ramen.jpg" alt="ramen" title="ramen" class="img-extra"/> 
-              <p class="texto-negro">
-              El plato conocido como Ramen son unos fideos japoneses. Del estilo de los yatecomo que anuncian en la televisión, pero preparados de forma casera. Este tipo de fideos pueden ser preparados con beicon, langostinos, diferentes tipos de verduras y caldos. En función del tipo de caldo que acompaña al Ramen, su nombre varía. El Ramen es uno de los platos más populares de Japón. Cada zona del país nipón tiene su propia forma de cocinar el plato, con variaciones en sus ingredientes.  
-              </p>   
-            </div>
-            <div class="row tarjeta">
-              <form>
-                <textarea rows="2" placeholder="Comentarios" required></textarea>
-                <input type="submit" class="float-right button">  
-              </form>  
-            </div>
-            <div class="row tarjeta">
-              <h1>La carbonara no lleva nata</h1>
-              <p>03 de mayo 2016</p>
-              <img src="img/pasta.jpg" alt="ramen" title="ramen" class="img-extra"/> 
-              <p class="texto-negro">
-              ¿Eres de los que se ofende con la paella con chorizo? Seguramente a muchos italianos les pasa lo mismo cuando ven esas carbonaras hechas con nata. Y es que, aunque igual a algunos aún les sorprende, la auténtica salsa carbonara se hace sin nata. No vamos a ponernos a estas alturas a defender la receta verdadera y única de tal o cual plato, y es verdad que la pasta con nata también queda rica. Pero si lo que queremos es hacer una carbonara como la preparan en Italia, sólo hay que seguir esta receta. La buena noticia es que es muy fácil de hacer, al menos si nos tomamos ciertas licencias respecto a la versión más pura.
-              </p>  
-            </div>
-            <div class="row tarjeta">
-              <form>
-                <textarea rows="2" placeholder="Comentarios" required></textarea>
-                <input type="submit" class="float-right button">  
-              </form>  
-            </div>      
+        <p class="letra-blanco">Favoritos:</p>
+        <div class="row column columna-favoritos">
+          <div class="column large-4">
+            <a href="#"><img src="img/1.jpg" class="marco"/></a>
           </div>
+          <div class="column large-4">
+            <a href="#"><img src="img/2.jpg" class="marco"/></a>
+          </div>
+          <div class="column large-4">
+            <a href="#"><img src="img/3.jpg" class="marco"/></a>
+          </div>  
+        </div>
+        <div class="row column columna-favoritos">
+          <div class="column large-4">
+            <a href="#"><img src="img/4.jpg" class="marco"/></a>
+          </div>
+          <div class="column large-4">
+            <a href="#"><img src="img/5.jpg" class="marco"/></a>
+          </div>
+          <div class="column large-4">
+            <a href="#"><img src="img/6.jpg" class="marco"/></a>
+          </div>  
+        </div>
+        <p class="letra-blanco">Historial:</p>
+        <ul>
+          <li><a href="#">sopas</a></li>
+          <li><a href="#">malteadas</a></li>
+          <li><a href="#">carnes mixtas</a></li>
+          <li><a href="#">rollos de tempura</a></li>
+          <li><a href="#">ramen</a></li>
+          <li><a href="#">jugos naturales</a></li>
+          <li><a href="#">pure de chocolate</a></li>  
+        </ul>  
+      </div>
+      <div class="column large-8 columna-der">
+        <div class="tarjeta">
+          <h1>Ramen</h1>
+          <p class="letra-blanco">25 agosto del 2010</p>
+          <img src="img/ramen.jpg" alt="ramen" title="ramen"/>
+          <p style="margin-top:15px;">
+           El plato conocido como Ramen son unos fideos japoneses. Del estilo de los yatecomo que anuncian en la televisión, pero preparados de forma casera. Este tipo de fideos pueden ser preparados con beicon, langostinos, diferentes tipos de verduras y caldos. En función del tipo de caldo que acompaña al Ramen, su nombre varía. El Ramen es uno de los platos más populares de Japón. Cada zona del país nipón tiene su propia forma de cocinar el plato, con variaciones en sus ingredientes. 
+          </p>
+          <form class="clearfix">
+            <textarea rows="2" placeholder="Comentarios"></textarea> 
+            <input type="submit" value="enviar" class="button float-right">  
+          </form>
+          <div class="row column fila-comentario">
+            <div class="column large-2">
+              <img src="img/usuario1.png" class="img-usuario"/>
+            </div>
+            <div class="column large-10" style="margin-top:20px;">
+             Me parece exelente este plato, para pasar un rato familiar :)  
+            </div>  
+          </div>
+          <div class="row column fila-comentario">
+            <div class="column large-2">
+              <img src="img/usuario1.png" class="img-usuario"/>
+            </div>
+            <div class="column large-10" style="margin-top:20px;">
+             Me parece exelente este plato, para pasar un rato familiar :)  
+            </div>  
+          </div>
+          <div class="row column fila-comentario">
+            <div class="column large-2">
+              <img src="img/usuario1.png" class="img-usuario"/>
+            </div>
+            <div class="column large-10" style="margin-top:20px;">
+             Me parece exelente este plato, para pasar un rato familiar :)  
+            </div>  
+          </div> 
         </div>  
-      </div>    
-    </section> 
+      </div> 
+    </section>  
   </body>
 </html>
