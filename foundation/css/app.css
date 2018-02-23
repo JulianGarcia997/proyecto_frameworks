@@ -3,7 +3,7 @@ body{
   background-repeat:no-repeat;
   background-position:center center;
   background-size:cover;
-  background-attachment:fixed; /*posicion fija*/
+  background-attachment:fixed; /*posicion fija*/ 
 }
 
 /* colores */
@@ -60,6 +60,10 @@ body{
   height:70px;    
 }
 
+.img-receta{
+  width:100%;   
+}
+
 /* extras */
 
 .marco{
@@ -78,6 +82,34 @@ li a{
 
 .tarjeta{
   background-color:rgba(241,148,138,0.80); 
-  padding:10px;
+  padding:10px; 
   border-bottom:1px solid rgb(241,148,138);    
+}
+
+.separacion{
+  margin-top:30px;   
+}
+
+/* media */
+
+@media (max-width:468px){
+  
+  .columna-der{
+    margin:10px 0px;
+    padding:0px;    
+  }
+
+  .img-usuario{
+    width:40px;
+    height:40px;    
+  }
+
+  .texto-com{
+    margin-top:0px !important; 
+    font-size:0.8em;   
+  }
+
+  .fila-comentario{
+    margin-top:10px;   
+  }
 }
